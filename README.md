@@ -1,8 +1,8 @@
 scibrew-serial-gnu
-==================
-brew tap for scientific software meant to be used in conjunction with [lmod.][http://sourceforge.net/projects/lmod/]
 =================
-These formulae provide the latest stable version of serial scientific software using the gnu compiler
+brew tap for scientific software meant to be used in conjunction with [lmod][].
+
+These formulae provide the latest stable version of serial scientific software using the gnu compiler.
 
 How do I install these formulae?
 --------------------------------
@@ -21,3 +21,4 @@ Docs
 `brew help`, `man brew`, or the Homebrew [wiki][].
 
 [wiki]:http://wiki.github.com/mxcl/homebrew
+[lmod]:http://sourceforge.net/projects/lmod
