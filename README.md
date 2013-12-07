@@ -1,4 +1,4 @@
-scibrew-serial-gnu
+homebrew-serialgnu
 =================
 brew tap for scientific software meant to be used in conjunction with [lmod][].
 
@@ -6,7 +6,7 @@ These formulae provide the latest stable version of serial scientific software u
 
 How do I install these formulae?
 --------------------------------
-Just `brew tap hovr2pi/scibrew-serial-gnu` and then `brew install <formula>`.
+Just `brew tap hovr2pi/serialgnu` and then `brew install <formula>`.
 
 If the formula conflicts with one from mxcl/master or another tap, you can `brew install homebrew/versions/<formula>`.
 
