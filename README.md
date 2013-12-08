@@ -17,7 +17,7 @@ $ brew tap hovr2pi/serialgnu
 After that it is just `brew install <formula>`.
 
 
-If the formula conflicts with one from mxcl/master or another tap, you can `brew install homebrew/versions/<formula>`.
+If the formula conflicts with one from mxcl/master or another tap, you can `brew install hovr2pi/homebrew-serialgnu/<formula>`.
 
 You can also install via URL:
 
