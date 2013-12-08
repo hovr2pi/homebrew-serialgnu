@@ -14,6 +14,11 @@ class Masa < Formula
 
 
 	def install
+		# Force compilation with gcc-4.8
+		ENV['CC'] = '/usr/local/bin/gcc-4.8'
+		ENV['LD'] = '/usr/local/bin/gcc-4.8'
+		ENV['CXX'] = '/usr/local/bin/g++-4.8'
+		ENV['FC'] = '/usr/local/bin/gfortran-4.8'
 		prefix # == HOMEBREW_PREFIX+'Cellar'+'serial-gnu'+name+version
 		system "./configure", "--disable-debug",
 			"--disable-dependency-tracking",
@@ -28,7 +33,6 @@ class Masa < Formula
 		"Documentation will only be built if doxygen, graphviz and pdflatex are installed"
 		"We recommend using a MacTeX distribution: http://www.tug.org/mactex/"
 		"$ brew install doxygen graphiz"
-		"it is strongly recommended that you also run brew test masa once the install is done"
 	end
 
 	test do
