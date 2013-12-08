@@ -8,6 +8,7 @@ The version that is currently used is the latest 4.8 releases.
 How do I install these formulae?
 --------------------------------
 ```bash
+$ xcode-select --install
 $ brew install homebrew/dupes/apple-gcc42
 $ brew install gfortran
 $ brew tap homebrew/versions
