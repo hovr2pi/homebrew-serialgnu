@@ -22,7 +22,7 @@ If the formula conflicts with one from mxcl/master or another tap, you can `brew
 You can also install via URL:
 
 ```
-brew install https://raw.github.com/hovr2pi/scibrew-serial-gnu/master/<formula>.rb
+brew install https://raw.github.com/hovr2pi/homebrew-serialgnu/master/<formula>.rb
 ```
 
 Docs
